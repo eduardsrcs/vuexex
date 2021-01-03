@@ -1,6 +1,6 @@
 <template>
   <div class="mainsearch">
-    <input type="text" v-model="query">
+    <input type="text" v-model="query" @keyup.enter="search">
     <button @click="search">Find</button>
   </div>
 </template>
@@ -24,5 +24,6 @@ export default {
 .mainsearch {
 background-color: #eeb;
 border-radius: 5px;
+padding: 1rem;
 }
 </style>

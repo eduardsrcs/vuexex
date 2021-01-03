@@ -15,3 +15,11 @@ export default {
     }
   }
 </script>
+
+<style scoped>
+h1{
+background-color: #ddd;
+padding: 1rem;
+text-align: center;
+}
+</style>

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mainsearch">
     <input type="text" v-model="query">
     <button @click="search">Find</button>
   </div>
@@ -19,3 +19,10 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.mainsearch {
+background-color: #eeb;
+border-radius: 5px;
+}
+</style>

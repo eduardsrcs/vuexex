@@ -4,6 +4,7 @@
   <div class="result" v-for="(item, index) in results" :key="index">
     <a :href="item.url | wikiFixer">{{item.title}}</a>
     <div>{{item.url | wikiFixer}}</div>
+    <div></div>
     <div v-html="item.snippet"></div>
   </div>
 </div>
